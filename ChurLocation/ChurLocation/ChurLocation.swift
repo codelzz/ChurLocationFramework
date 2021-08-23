@@ -7,8 +7,8 @@
 
 import Foundation
 
-public class ChurLocation: NSObject {
-    public static func start() {
-        debugPrint("[ChurLocation] Start")
+public struct Tracker {
+    static func start() {
+        print("Hello world")
     }
 }
